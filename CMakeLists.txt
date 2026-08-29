@@ -114,7 +114,6 @@ endif()
 
 if(NOT STD_CHARCONV_COMPILING)
     target_include_directories(zeem PRIVATE $<TARGET_PROPERTY:FastFloat::fast_float,INTERFACE_INCLUDE_DIRECTORIES>)
-    target_compile_definitions(zeem PRIVATE USE_FAST_FLOAT)
 endif()
 
 if(NOT USE_STD_CHRONO_FROM_STREAM)
@@ -170,7 +169,7 @@ if(ZEEM_BUILD_CXX_MODULE)
     target_compile_features(zeem-module PUBLIC cxx_std_23)
 
     if(NOT STD_CHARCONV_COMPILING)
-        target_include_directories(zeem-module PRIVATE $<TARGET_PROPERTY:FastFloat::fast_float,INTERFACE_INCLUDE_DIRECTORIES>)
+		target_include_directories(zeem-module PRIVATE $<TARGET_PROPERTY:FastFloat::fast_float,INTERFACE_INCLUDE_DIRECTORIES>)
     endif()
 
     target_sources(zeem-module
