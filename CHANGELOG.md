@@ -3,6 +3,9 @@ SPDX-FileCopyrightText: 2026 Maarten L. Hekkelman
 SPDX-License-Identifier: BSD-2-Clause
 -->
 
+Version 2.4.1
+- Include fast_float.h in charconv.cxx
+
 Version 2.4.0
 - Add Windows shared library and MSVC support
 - Added version providing function
