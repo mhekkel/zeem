@@ -3,6 +3,10 @@ SPDX-FileCopyrightText: 2026 Maarten L. Hekkelman
 SPDX-License-Identifier: BSD-2-Clause
 -->
 
+Version 2.4.2
+- Add missing include in serialize.hpp
+- Update documentation requirements
+
 Version 2.4.1
 - Include fast_float.h in charconv.cxx
 - Fix includes for Windows
