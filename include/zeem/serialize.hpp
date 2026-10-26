@@ -11,6 +11,7 @@
 #ifndef ZEEM_CXX_MODULE
 # include "zeem/export.hpp"
 # include "zeem/config.hpp"
+# include "zeem/document.hpp"
 # include "zeem/detail/charconv.hpp"
 # include "zeem/node.hpp"
 # include "zeem/parser.hpp"
