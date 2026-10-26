@@ -13,6 +13,7 @@
 # include "zeem/config.hpp"
 # include "zeem/document.hpp"
 # include "zeem/detail/charconv.hpp"
+# include "zeem/document.hpp"
 # include "zeem/node.hpp"
 # include "zeem/parser.hpp"
 # include "zeem/xpath.hpp"

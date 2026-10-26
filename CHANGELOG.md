@@ -5,6 +5,7 @@ SPDX-License-Identifier: BSD-2-Clause
 
 Version 2.4.1
 - Include fast_float.h in charconv.cxx
+- Fix includes for Windows
 
 Version 2.4.0
 - Add Windows shared library and MSVC support

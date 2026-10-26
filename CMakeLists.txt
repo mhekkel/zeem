@@ -47,7 +47,8 @@ elseif(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
 endif()
 
 try_compile(STD_CHARCONV_COMPILING
-    SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/cmake/test-charconv.cpp)
+    SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/cmake/test-charconv.cpp
+    CXX_STANDARD 23)
 
 if(NOT STD_CHARCONV_COMPILING)
     message(NOTICE "zeem: Using fast_float for std::from_chars")
